@@ -1,19 +1,19 @@
 @0
 D=M
 @5
-M=D       // Postavim 5. memoriju na vrijednost nulte za pripremu
+M=D       // postavim 5. memoriju na vrijednost nulte za pripremu
 
 @0
-D=M       // Učitaj vrijednost sa mem lokacije 0 u D
+D=M       // ucitaj vrijednost sa mem lokacije 0 u D
 @5
-D=D-M     // Oduzmi vrijednost sa mem lokacije 5 od vrijednosti sa lokacije 0 (D = D - M)
+D=D-M     // oduzme se vrijednost sa mem lokacije 5 od vrijednosti sa lokacije 0 (D = D - M)
 @skip1
-D;JGE     // Ako je D >= 0, preskoči sljedeći korak (to znači da je 0 <= 5, pa ne treba ništa mijenjati)
+D;JGE     // ak je D >= 0, preskoči sljedeći korak (0 <= 5, pa ne treba nista mijenjati)
 @0
-D=M       // Ponovno učitaj vrijednost sa memorijske lokacije 0 u D
+D=M       // ponovno ucitaj vrijednost sa memorijske lokacije 0 u D
 @5
-M=D       // Spremi vrijednost sa lokacije 0 na lokacije 5
-(skip1)     // Ovdje nastavlja program ako nije bilo potrebno spremiti
+M=D       // spremi se vrijednost sa lokacije 0 na lokacije 5
+(skip1)     // nastavlja se program ako nije bilo potrebno spremiti
 
 
 @1
@@ -68,6 +68,6 @@ M=D
 (skip5)    
 
 
-(END)     // Beskonačna petlja za end
+(END)     // infinite loop za kraj
 @END
 0;JMP    
