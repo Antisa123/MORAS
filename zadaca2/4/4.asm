@@ -83,7 +83,6 @@ M=M+D;
 
 (end_diag)
 
-
 /////////////////////////okomita
 
 @top
@@ -126,8 +125,6 @@ M=M+D;
 @start_vert
 0;JMP
 (end_vert)
-
-
 
 //////////////////////////////////horizontalna
 @top
@@ -179,7 +176,6 @@ M=-1;
 
 
 //////////////////////////////////horizontalna
-
 
 ////////////////// rucno vrh prve dijagonale
 @top
@@ -402,8 +398,7 @@ A=M;
 M=D;
 ///////////////////////////////////kraj rucnog
 
-
-////////////////////////////////// unutarnja dijagonalica
+////////////////////////////////// unutarnja dijagonala
 @top
 D=M;
 @3584
@@ -461,7 +456,7 @@ D=D-M
 @skip_dodat_1
 D;JGE
 
-@33 // nez zas to radi iskr
+@33 
 D=A;
 
 @mala_diag
@@ -476,13 +471,6 @@ M=0;
 @mala_diag_start
 0;JMP
 (mala_diag_end)
-
-
-
-
-
-
-
 
 (END)
 @END
