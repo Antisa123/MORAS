@@ -8,7 +8,7 @@ D=M       // ucitaj vrijednost sa mem lokacije 0 u D
 @5
 D=D-M     // oduzme se vrijednost sa mem lokacije 5 od vrijednosti sa lokacije 0 (D = D - M)
 @skip1
-D;JGE     // ak je D >= 0, preskoči sljedeći korak (0 <= 5, pa ne treba nista mijenjati)
+D;JGE     // ak je D >= 0, preskoci sljedeći korak (0 <= 5, pa ne treba nista mijenjati)
 @0
 D=M       // ponovno ucitaj vrijednost sa memorijske lokacije 0 u D
 @5
