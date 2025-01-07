@@ -68,6 +68,6 @@ M=D
 (skip5)    
 
 
-(END)     // infinite loop za kraj
+(END)     // infinite petlja za kraj
 @END
 0;JMP    
